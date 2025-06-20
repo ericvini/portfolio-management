@@ -1,9 +1,8 @@
-## 🎯 Objetivo
+# 🧠 Projeto CRUD de Usuários — Node.js + Fastify + Prisma (Arquitetura em Camadas)
 
-O intuito deste projeto é **estudar a arquitetura em camadas**, que é um padrão clássico e muito utilizado em sistemas web. A separação em camadas ajuda a:
+Este projeto é um **CRUD de cadastro de usuários** desenvolvido com **Node.js**, **Fastify** e **Prisma ORM**, seguindo o padrão de **arquitetura em camadas (Layered Architecture)**.
 
-- Melhorar a **manutenibilidade**
-- Tornar o sistema mais organizado em projetos pequenos
+Cada **usuário possui nome, email e senha**, e pode ter **múltiplas carteiras de investimentos** associadas.
 
 ---
 
