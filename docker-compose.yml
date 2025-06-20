@@ -1,0 +1,10 @@
+services:
+  api-portfolio-management-pg:
+    image: bitnami/postgresql
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRESQL_USERNAME=docker
+      - POSTGRESQL_PASSWORD=docker
+      - POSTGRESQL_DATABASE=portfoliomanagement
+      - DATABASE_URL=postgresql://docker:docker@localhost:5432/portfoliomanagement
